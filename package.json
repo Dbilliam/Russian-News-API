@@ -1,0 +1,20 @@
+{
+  "name": "russiannewsapi",
+  "version": "1.0.0",
+  "description": "Russian News API is a simple, easy-to-use REST API that returns JSON search results for current and historic news articles",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "rakesh barman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
